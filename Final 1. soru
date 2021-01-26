@@ -1,0 +1,134 @@
+1030510253 Burak Kalınlı - Web Programlama
+HTML KODLARI:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Alışveriş Uygulaması</title>
+    
+    <link rel="stylesheet" href="style.css">    
+    
+    </head>
+<body>
+    
+    
+    <header>
+    
+    <h1>Alışveriş Uygulaması</h1>
+    <h3>Vermek istediğiniz siparişler için aşağıdaki listeden seçerek adedini belirtiniz.</h3>
+             
+        </tr>
+        
+            <table ekmek>
+                <tr>
+                    <th>Ekmek</th>
+                </tr>
+                <tr>
+                    <td>2TL/adet</td>
+                </tr>
+                <tr>
+                    <td>200 gr</td>
+                </tr>
+        
+                    <td><a href="#"><button>Sepete Ekle</button></a></td>
+                     
+                </tr>
+               
+            </table>
+            
+            <table Çikolata>
+                <tr>
+                    <th>Çikolata</th>
+                </tr>
+                <tr>
+                    <td>5TL/adet</td>
+                </tr>
+                <tr>
+                    <td>60 gr</td>
+                </tr>
+        
+                    <td><a href="#"><button>Sepete Ekle</button></a></td>
+                     
+                </tr>
+               
+            </table>
+            
+            <table Domates>
+                <tr>
+                    <th>Çikolata</th>
+                </tr>
+                <tr>
+                    <td>6TL/kg</td>
+                </tr>
+                <tr>
+                    <td>Domates Antalya sera</td>
+                </tr>
+        
+                    <td><a href="#"><button>Sepete Ekle</button></a></td>
+                     
+                </tr>
+
+                <table Siparişleriniz>
+                    <tr>
+                        <th>Somun Ekmek (2) 4TL</th>
+                    </tr>
+                    <tr>
+                        <td>Domates (1) 6TL</td>
+                    </tr>
+                    
+                        <tr>
+                            <td style="color: blue;">İndirim Kuponu: Erciyes-bilgisayar (1)TL</td>
+                        </tr>
+                    <tr>
+                        <td>Toplam Fiyat 14 TL</td>
+                    </tr>
+                    <tr>
+                        <td><div class="form-check">
+                          <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" name="İndirim" id="1" value="" checked>
+                    
+                          </label>
+                        </div></td>
+                    </tr>
+            
+                        <td><a href="#"><button>Sepete Ekle</button></a></td>
+                         
+                    </tr>
+
+        </header>
+    
+        
+    </body>
+
+</html>
+
+css kodları:
+body {
+    background:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    color:black;
+}
+
+button {
+    background-color: blue;
+    float: center;
+    font-size: 1rem;
+    padding: 0 1rem;
+    color:white;
+    text-align: center;
+    
+}
+
+
+
+table {
+    margin-top: 5%;
+    text-align: center;
+    padding-left: 5px;
+    border: 1px solid gray;
+    border-collapse:collapse;
+}
+
